@@ -1,0 +1,110 @@
+/* Hide header icons */
+@media (max-width: 767px) {
+  header .head .main-nav li .icon {
+    display: none;
+  }
+}
+
+/* slider */
+@media (max-width: 767px) {
+  .home:before {
+    height: 14%;
+  }
+  .home .container .slider .text {
+    width: 100%;
+    top: 38%;
+    text-align: center;
+    margin-left: 0;
+  }
+  .home .slider .text h1 {
+    margin: 0;
+  }
+  .home .slider .text p {
+    margin: 15px 0 30px;
+  }
+  .home .container .slider .image {
+    left: 50%;
+    transform: translate(-50%,-50%);
+    top: 75%;
+    width: 112%;
+  }
+  .home .arrows .arrow-left,
+  .home .arrows .arrow-right {
+    top: 89%;
+  }
+}
+
+/* about-us */
+@media (max-width: 1200px) {
+  .about-us .cards {
+    gap: 150px;
+  }
+  .about-us .cards .box {
+    width: 300px;
+    margin: auto ;
+  }
+  .about-us .cards .box .text p {
+    width: 250px;
+  }
+  .about-us .cards .box input[type=button] {
+    bottom: -25%;
+  }
+}
+
+/* Portfolio */
+@media (max-width: 992px) {
+  .portfolio .row .large {
+    width: 90%;
+    margin: auto;
+  }
+  .portfolio .row .small {
+    width: 70%;
+    margin: auto;
+  }
+}
+
+/* Free Consultation */
+@media (max-width: 992px) {
+  .free-cons .box {
+    flex-direction: column;
+  }
+  .free-cons .box form {
+    padding: 0;
+    margin: 15px auto 100px;
+    width: 90%;
+  }
+  .free-cons .box .image {
+    text-align: center;
+    padding: 0;
+    width: 90%;
+  }
+  .free-cons .box .image img {
+    width: 100%;
+  }
+  .free-cons .box form .row .input-wide {
+    width: 100%;
+  }
+  .free-cons .box form input[type= submit] {
+    margin: 20px auto;
+  }
+}
+
+/* Footer */
+@media (max-width: 767px) {
+  .footer:before {
+    clip-path: polygon(0 85px, 100% 0, 100% 100%, 0 100%);
+  }
+  .footer .container {
+    margin-top: 80px;
+  }
+  .footer .info {
+    flex-direction: column;
+    padding-bottom: 25px;
+  }
+  .footer .info .box {
+    width: 100%;
+  }
+  .footer .info .box form {
+    margin-bottom: 48px;
+  }
+}
